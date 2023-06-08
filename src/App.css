@@ -1,38 +1,63 @@
 .App {
-  text-align: center;
+  overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  width: 100vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#home {
+  background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(./assets/images/craft-kitties-Huz0eIMxo5Y-unsplash.jpg);
+  min-height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+#home h1 {
+  text-shadow: 2px 2px 4px rgba(199, 199, 199, 0.5);
+  font-family:tahoma;
+}
+
+#about h1, #portifolio h1{
+  text-shadow: 2px 2px 8px rgba(17, 51, 144, 0.6);
+  font-size: 3.5rem; 
+  color: rgba(17, 51, 144, 0.75)
+}
+
+#skills,#footer{
+  
+  /* background-color: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)); */
+  background-color:rgba(17, 36, 90, 0.8) ;
+ 
+  
+}
+#skills h1{
+    font-size: 3.5rem; 
+    text-shadow: 2px 2px 4px rgba(199, 199, 199, 0.5);
+    
+}
+
+#skills .focus hr{
+  width: 200px;
+  border-width: 2px;
+  border-style: solid;
+  
+}
+
+.project-item{
+  width: 250px;
+  height: 130px;
+  background-color: rgba(17, 36, 90, 0.8);
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
   color: white;
-}
+  margin: 10px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer a{
+  text-decoration: none;
+  color: white;
 }
