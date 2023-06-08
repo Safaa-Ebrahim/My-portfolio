@@ -21,8 +21,8 @@ const Footer =()=>{
          <div className="col-12 col-lg-4 text-center text-lg-end">
             <p>
                <a href='https://www.linkedin.com/in/safaa-mahmoud-ebrahim/'><i className="fab fa-linkedin" style={{ fontSize: '2rem' }}></i></a>
-               <a href='https://www.facebook.com/safaa.ebrahim.3990/'><i className="fab fa-facebook mx-4" style={{ fontSize: '2rem' }}></i></a>
-               <a href='https://github.com/Safaa-Ebrahim?tab=repositories'><i className="fab fa-github " style={{ fontSize: '2rem' }}></i></a>
+               <a href='https://github.com/Safaa-Ebrahim?tab=repositories'><i className="fab fa-github mx-4" style={{ fontSize: '2rem' }}></i></a>
+               <a href='https://www.facebook.com/safaa.ebrahim.3990/'><i className="fab fa-facebook" style={{ fontSize: '2rem' }}></i></a>
             </p>
 
             <p style={{marginTop: "25px"}}>Created with ❤️ by SAFAA</p>

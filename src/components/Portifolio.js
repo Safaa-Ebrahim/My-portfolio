@@ -5,27 +5,22 @@ const Portifolio =()=>{
             <div className="col-lg-4">
                 <h1 className="text-center mb-3">Portifolio </h1>
             </div>
-
             <div className="row">
             <div className="col-lg-2"></div>
               <div className="col-lg-8">
                 <div className="row justify-content-center">
                   <div className="col-lg-3 project-item">
-                    <h4 className="text-center">Nursery-System</h4>
+                    <a href="https://safaa-ebrahim.github.io/Leon-Templet/"><h4 className="text-center">Leon-Templet</h4></a>
                   </div>
-
                   <div className="col-lg-3 project-item">
-                    <h4 className="text-center">Leon-Templet</h4>
+                    <a href="https://safaa-ebrahim.github.io/Lissome-Templet/"><h4 className="text-center">Lissome-Templet</h4></a>
                   </div>
-
                   <div className="col-lg-3 project-item">
-                    <h4 className="text-center">Lissome-Templet</h4>
+                    <a href="https://safaa-ebrahim.github.io/api_countries/"><h4 className="text-center">Country Language using API</h4></a>
                   </div>
-
                   <div className="col-lg-3 project-item">
-                    <h4 className="text-center">E-commerce Furniture</h4>
+                    <a href="https://github.com/Safaa-Ebrahim/Nursery-System"><h4 className="text-center">Nursery-System</h4></a>
                   </div>
-
                 </div>
               </div>
             </div>
